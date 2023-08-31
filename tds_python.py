@@ -13,3 +13,4 @@ num3 = st.number_input("Enter the third number:")
 if st.button("Find Largest Number"):
     largest = find_largest_number(num1, num2, num3)
     st.write(f"The largest number is: {largest}")
+streamlit run largest_number_app.py
